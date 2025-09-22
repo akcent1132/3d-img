@@ -1,0 +1,44 @@
+/* App Component Styles */
+.app {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.app__container {
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.app__card {
+}
+
+@media (max-width: 768px) {
+  .app__container {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .app__container {
+    gap: 1rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
